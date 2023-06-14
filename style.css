@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Open Sans' , sans-serif;
+    flex-direction: column;
+    background: rgb(0,212,255);
+    color: white;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.border{
+    padding: 30 px;
+    margin: 10px;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.1),
+                 -10px 20px 5px rgba(0,0,0,0.1);
+        flex-direction: column;
+}
+button{
+    background: rgb(191,181,242);
+    background: linear-gradient(105deg, rgba(191,181,242,1) 0%, rgba(40,172,158,1) 100%);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Open Sans' , sans-serif;
+    border: none;
+    transition: 0.2s ease;
+    -webkit-transition:  .2s;
+    -o-transition:  .2s;
+    -moz-transition:  .2s;
+}
+button:hover {
+    box-shadow: 15px 15px 15px -15px #111;    
+    
+}
